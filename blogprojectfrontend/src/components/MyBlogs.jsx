@@ -73,9 +73,9 @@ function MyBlogs() {
 
             <Modal show={showModal} onHide={() => setShowModal(false)}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Onayı</Modal.Title>
+                    <Modal.Title>Kullanıcı Onayı</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Yasin kola almak istemediğine emin misin?</Modal.Body>
+                <Modal.Body>Silmek istediğinize emin misin?</Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={() => setShowModal(false)}>İptal</Button>
                     <Button variant="danger" onClick={handleDelete}>Sil</Button>
