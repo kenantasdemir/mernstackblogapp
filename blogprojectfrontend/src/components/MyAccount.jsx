@@ -52,9 +52,9 @@ function MyAccount() {
 
                 <Modal show={showModal} onHide={() => setShowModal(false)}>
                     <Modal.Header closeButton>
-                        <Modal.Title>Onayı</Modal.Title>
+                        <Modal.Title>Kullanıcı Onayı</Modal.Title>
                     </Modal.Header>
-                    <Modal.Body>Yasin kola almak istemediğine emin misin?</Modal.Body>
+                    <Modal.Body>Hesabınızı silmek istediğinize emin misiniz?</Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={() => setShowModal(false)}>İptal</Button>
                         <Button variant="danger" onClick={handleDelete}>Sil</Button>
