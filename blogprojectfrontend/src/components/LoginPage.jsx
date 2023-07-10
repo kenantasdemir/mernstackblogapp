@@ -20,23 +20,14 @@ function LoginPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Giriş yapma işlemini gerçekleştirmek için HTTP isteği yapılabilir
-    // Örnek olarak axios veya fetch kullanılabilir
-    // İstek gönderilirken email ve password değerlerini kullanabilirsiniz
+ 
 
     const loginData = {
       email,
       password,
     };
 
-    // Örnek olarak axios kullanımı:
-    // axios.post('/login', loginData)
-    //   .then((response) => {
-    //     // Giriş işlemi başarılı olduğunda yapılacak işlemler
-    //   })
-    //   .catch((error) => {
-    //     // Giriş işlemi hatalı olduğunda yapılacak işlemler
-    //   });
+ 
 
     // Örnek olarak fetch kullanımı:
     fetch('/login', {
